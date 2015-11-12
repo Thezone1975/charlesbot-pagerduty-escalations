@@ -1,5 +1,6 @@
 import asynctest
-from charlesbot_pagerduty_escalations.pagerdutyescalations import PagerdutyEscalations
+from charlesbot_pagerduty_escalations.pagerdutyescalations import PagerdutyEscalations  # NOQA
+
 
 class TestPagerdutyEscalations(asynctest.TestCase):
 
