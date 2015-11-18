@@ -2,6 +2,12 @@
 Pagerduty Escalations
 =====================
 
+.. image:: https://img.shields.io/travis/freshbooks/charlesbot-pagerduty-escalations/master.svg?style=flat-square
+    :target: https://travis-ci.org/freshbooks/charlesbot-pagerduty-escalations
+    :alt: Travis CI
+.. image:: https://img.shields.io/coveralls/freshbooks/charlesbot-pagerduty-escalations/master.svg?style=flat-square
+    :target: https://coveralls.io/github/freshbooks/charlesbot-pagerduty-escalations?branch=master
+    :alt: Code Coverage
 .. image:: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
     :target: LICENSE.txt
     :alt: Software License

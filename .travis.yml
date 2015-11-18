@@ -1,0 +1,19 @@
+language: python
+sudo: false
+python:
+  - "3.4"
+
+install:
+  - pip install -U twine
+  - make install
+  - ./env/bin/pip install coveralls
+
+script:
+  - make checkstyle
+  - make test
+
+after_success:
+  - ./env/bin/coveralls
+
+notifications:
+  email: false
