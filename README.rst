@@ -2,6 +2,10 @@
 Pagerduty Escalations
 =====================
 
+.. image:: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
+    :target: LICENSE.txt
+    :alt: Software License
+
 A Charlesbot__ plugin to create an incident in Pagerduty and assign it to a
 specific service.
 
@@ -83,6 +87,6 @@ Sample config file
 
 License
 -------
-See the LICENSE__ file for license rights and limitations (MIT).
+See the LICENSE.txt__ file for license rights and limitations (MIT).
 
-__ ./LICENSE
+__ ./LICENSE.txt
