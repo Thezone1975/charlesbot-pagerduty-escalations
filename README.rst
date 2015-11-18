@@ -41,7 +41,7 @@ Installation
 
 .. code:: bash
 
-    pip install git+https://github.com/freshbooks/charlesbot-pagerduty-escalations.git@master
+    pip install charlesbot-pagerduty-escalations
 
 Instructions for how to run Charlesbot are over at https://github.com/marvinpinto/charlesbot!
 

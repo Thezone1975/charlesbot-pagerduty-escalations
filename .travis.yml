@@ -15,5 +15,14 @@ script:
 after_success:
   - ./env/bin/coveralls
 
+deploy:
+- provider: pypi
+  user: freshbooks
+  password:
+    secure: "lV44MlGkXWgQfxVw/3zXW7ZkRelpTyT6Wf+nWZxwPTyAgFFEprvJIXA+WdskEmVKUpOc+XxF6AvGyTWRITAtk+0MLiuVW2PbTSIAW1VP1F1Kk27R3lSRDcnYuzMsdu+W+jkXrF4wRTGtUBiFp+XazWZosHpwcwZMjEWmuoF2BZo31Cv/YfJQmS0+0ECSU1u+tCzvvv6gtIHZYg9k6qxiijHTqYmvCmzRgP49D36nFE3JRimmdcEjrleIqYIAuiBVbGJRHZtki3uHerzjxMabbs7lZ4P/VWWs3qRrvtzdn7A+DkZ19aVJHMZe0aaVdNugLWEY4NUHqe/6A3QqnH9UP4Em2UZcN7Up6HM0vSPqxsMIQkOva8aSxDJ6t+R8qn53qSM1tzfIdlC4j39iUqGCAvZA6Bs3TLq/WRpPI88xSzbGfWsLV+Ud5i/ZdPT7a1BFC8i78QPJ0Sc+ZFc+Falp3yLpv3UkLVb5mygdZdJ2mwSHT7V35is5VPjy89phiGh3OMPPTTYlfLAzNAr0P3Miriq/F7G5QrzsmRCKtoIDPUG8cobHzd+EuaO4hZaRdYe0wanPl40qmaV3VZ/dJ9MtjKGXlL81vf4CDUm/41qoohmJocIK3HS+oJGox8RbvFD16oTsRrRP1t+h7BqVS5bxnICuXLakV10xPQSIowrl9bQ="
+  on:
+    tags: true
+    repo: freshbooks/charlesbot-pagerduty-escalations
+
 notifications:
   email: false
