@@ -4,9 +4,11 @@ import logging
 log = logging.getLogger(__name__)
 
 
-# TODO: Move this to the base library -- really has no business here
+# TODO: Move this to the base library
 @asyncio.coroutine
-def http_post_request(url, content_type="application/json", payload={}):
+def http_post_request(url,
+                      content_type="application/json",
+                      payload={}):  # pragma: no cover
     headers = {
         'Content-type': content_type,
     }
