@@ -17,7 +17,7 @@ test_requirements = [
 
 setup(
     name='charlesbot-pagerduty-escalations',
-    version='0.1.0',
+    version='0.2.0',
     description="Plugin to create an incident in Pagerduty and assign it to a specific team",
     long_description=readme,
     author="FreshBooks",
