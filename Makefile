@@ -12,6 +12,13 @@ help:
 	@echo 'checkstyle: Run flake8'
 	@echo 'run: Run CharlesBOT locally'
 
+# Utility target for checking required parameters
+guard-%:
+	@if [ "$($*)" = '' ]; then \
+     echo "Missing required $* variable."; \
+     exit 1; \
+   fi;
+
 clean:
 	py3clean .
 	rm -f .coverage
